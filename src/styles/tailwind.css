@@ -1,0 +1,35 @@
+@import "tailwindcss";
+@import '../assets/fonts/font.css';
+
+@layer base {
+  /* Define CSS variables globally */
+  :root {
+    --DTPrimaryColor: #fcb51f;
+    --DTSecondaryColor: #141618;
+    --DTTertiaryColor: #777777;
+    --DTOverlayColor: rgba(20, 22, 24, 0.5);
+    --DTOverlayColor: rgb(255 255 255 / 50%);
+    --DTLinkColor: #141618;
+    --DTLinkHoverColor: #9d9d9d;
+    --DTColor_Body: #9e9999;
+    --DTColor_Heading: #141618;
+    --DTColor_Border: #e4e4e4;
+    --DT_Error_Color: #D8000C;
+    --DT_Success_Color: #4F8A10;
+    --DT_Warning_Color: #9F6000;
+    --DT_Info_Color: #31708f;
+    --DT_Blog_Border_Radius: 0px;
+    --DT_Blog_Gutter_Width: 30px;
+  }
+
+}
+
+
+@layer utilities {
+    .font-source {
+      font-family: 'Source Sans Pro', sans-serif;
+    }
+    .font-display-fair {
+        font-family: "Playfair Display", serif;
+    }
+}
