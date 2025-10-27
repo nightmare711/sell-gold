@@ -5,14 +5,18 @@ import type { FunctionComponent } from "./common/types";
 import type { TanstackRouter } from "./main";
 import { TanStackRouterDevelopmentTools } from "./components/utils/development-tools/TanStackRouterDevelopmentTools";
 import { NavBar } from "./components/ui/nav";
+import { Toaster } from 'sonner'
+import { useFakeBill } from "./hooks/useFakeBill";
 
 const queryClient = new QueryClient();
 
 type AppProps = { router: TanstackRouter };
 
 const App = ({ router }: AppProps): FunctionComponent => {
+	useFakeBill();
 	return (
 		<QueryClientProvider client={queryClient}>
+			<Toaster position="bottom-right" />
 			<NavBar />
 			<RouterProvider router={router} />
 			<TanStackRouterDevelopmentTools
