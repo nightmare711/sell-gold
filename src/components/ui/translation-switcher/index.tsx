@@ -11,8 +11,8 @@ interface Language {
 
 const languages: Array<Language> = [
   { code: 'en', flag: '🇺🇸' },
-  { code: 'es', flag: '🇪🇸' },
   { code: 'vn', flag: '🇻🇳' },
+  { code: 'zh', flag: '🇨🇳' },
 ];
 
 export const TranslationSwitcher = (): JSX.Element => {

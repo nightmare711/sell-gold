@@ -1,0 +1,26 @@
+{
+    "home": {
+        "join-whitelist": "加入我们的候补名单",
+        "banner-description-1": "以 AuRACLE 黄金测试仪发现极致精确性。用我们的尖端技术改变您的黄金和铂金测试体验。告别过时的方法，拥抱新一代功能：移动测试电池供电、更高精度、多语言以及更好的显示屏和用户体验。",
+        "banner-title-1": "世界<highlight>领先</highlight>的黄金测试仪",
+        "intro-title-1": "介绍 AuRACLE Ultra",
+        "intro-description-1": "AuRACLE Ultra 是黄金和铂金测试领域的下一代创新产品。这款卓越设备不仅设定了精度和效率的新基准，还非常便携，随时随地方便使用。AuRACLE 黄金测试仪凭借紧凑设计和用户友好界面，提供简洁性和精确性 — 是专业人士、爱好者和大宗买家的必备工具。操作简便，几秒钟内即可获得可靠结果，确保每次贵金属交易都能充满信心和准确性。无论是在繁华的珠宝店还是在移动中，AuRACLE 黄金测试仪都是您安全、准确、明智地评估黄金和铂金的便携式解决方案。",
+        "price": "价格",
+        "checkout": "查看我们当前的 GemOro 产品"
+    },
+    "language": {
+        "en": "英语",
+        "vn": "越南语",
+        "zh": "中文"
+    },
+    "toast": {
+        "someoneRecently": "某人最近",
+        "boughtFromPrefix": "购买自",
+        "minuteAgo": "1分钟前",
+        "minutesAgo": "{{count}}分钟前"
+    },
+    "common": {
+        "user": "用户"
+    }
+}
+

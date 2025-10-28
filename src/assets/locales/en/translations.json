@@ -10,7 +10,16 @@
     },
     "language": {
         "en": "English",
-        "es": "Spanish", 
-        "vn": "Vietnamese"
+        "vn": "Vietnamese",
+        "zh": "Chinese"
+    },
+    "toast": {
+        "someoneRecently": "Someone recently",
+        "boughtFromPrefix": "bought from",
+        "minuteAgo": "1 minute ago",
+        "minutesAgo": "{{count}} minutes ago"
+    },
+    "common": {
+        "user": "User"
     }
 }

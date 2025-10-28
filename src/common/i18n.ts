@@ -3,15 +3,15 @@ import LanguageDetector from "i18next-browser-languagedetector";
 import Backend, { type HttpBackendOptions } from "i18next-http-backend";
 import { initReactI18next } from "react-i18next";
 import translationEN from "../assets/locales/en/translations.json";
-import translationES from "../assets/locales/es/translations.json";
 import translationVN from "../assets/locales/vn/translations.json";
+import translationZH from "../assets/locales/zh/translations.json";
 import { isProduction } from "./utils";
 
 export const defaultNS = "translations";
 export const resources = {
 	en: { translations: translationEN },
-	es: { translations: translationES },
 	vn: { translations: translationVN },
+	zh: { translations: translationZH },
 } as const;
 
 const i18nOptions: InitOptions<HttpBackendOptions> = {

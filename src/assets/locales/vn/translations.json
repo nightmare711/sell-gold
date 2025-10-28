@@ -10,7 +10,16 @@
   },
   "language": {
     "en": "Tiếng Anh",
-    "es": "Tiếng Tây Ban Nha",
-    "vn": "Tiếng Việt"
+    "vn": "Tiếng Việt",
+    "zh": "Tiếng Trung"
+  },
+  "toast": {
+    "someoneRecently": "Gần đây ai đó",
+    "boughtFromPrefix": "đã mua từ",
+    "minuteAgo": "1 phút trước",
+    "minutesAgo": "{{count}} phút trước"
+  },
+  "common": {
+    "user": "Người dùng"
   }
 }
